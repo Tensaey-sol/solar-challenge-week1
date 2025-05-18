@@ -1,10 +1,6 @@
 name: CI
 
-on:
-  push:
-    branches: [setup-task]
-  pull_request:
-    branches: [setup-task]
+on: [push, pull_request]
 
 jobs:
   install-dependencies:
