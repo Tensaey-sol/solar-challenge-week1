@@ -51,7 +51,6 @@ solar-challenge-week1/
 ├── .gitignore                 # Ignore rules for Git
 ├── requirements.txt           # Project dependencies
 ├── README.md                  # Project documentation
-├── src/                       # Source code directory
 ├── notebooks/                 # Jupyter notebooks
 │   ├── __init__.py
 │   └── README.md
