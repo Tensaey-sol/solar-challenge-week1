@@ -13,6 +13,8 @@ venv/
 # CSV and data files
 *.csv
 data/
+notebooks/figures/
+*.png
 
 # Pytest cache
 .pytest_cache/
