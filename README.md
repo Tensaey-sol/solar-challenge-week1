@@ -55,11 +55,7 @@ solar-challenge-week1/
 ├── notebooks/                 # Jupyter notebooks
 │   ├── __init__.py
 │   └── README.md
-├── scripts/                   # Script utilities
-│   ├── __init__.py
-│   └── README.md
-├── tests/                     # Unit tests
-│   ├── __init__.py
+├── data/                      ← ignored by .gitignore
 └── .venv/                     # Virtual environment (ignored by git)
 ```
 
@@ -67,7 +63,7 @@ solar-challenge-week1/
 
 ## ⚙️ GitHub Actions CI
 
-A continuous integration workflow is configured to automatically run when changes are pushed to the `setup-task` branch:
+A continuous integration workflow is configured to automatically run when changes are pushed to the branches:
 
 - Uses **Python 3.13.1**
 - Installs dependencies from `requirements.txt`
