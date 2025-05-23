@@ -19,6 +19,7 @@ notebooks/figures/
 # Pytest cache
 .pytest_cache/
 scripts/__pycache__
+app/__pycache__
 
 # MyPy cache
 .mypy_cache/
